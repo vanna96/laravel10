@@ -7,7 +7,7 @@ services:
     image: 'laravelapp'
     container_name: app
     ports:
-      - 8000:80
+      - 8080:80
     volumes:
       - ./:/var/www/html
   db:
